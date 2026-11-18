@@ -1,0 +1,10 @@
+
+# Ignore environment files only
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Allow example environment files
+!.env.example
+!**/.env.example
